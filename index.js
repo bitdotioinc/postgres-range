@@ -303,7 +303,7 @@ function serializeBound (bnd) {
   return value
 }
 
-module.exports = {
+export {
   Range,
   RangeError,
   RANGE_EMPTY,

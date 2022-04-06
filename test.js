@@ -1,7 +1,7 @@
 'use strict'
 
-const test = require('tape')
-const {
+import test from 'tape'
+import {
   Range,
   RANGE_EMPTY,
   RANGE_LB_INC,
@@ -11,7 +11,7 @@ const {
 
   parse,
   serialize
-} = require('./index')
+} from './index.js'
 
 test('parse', function (t) {
   const string = parse
